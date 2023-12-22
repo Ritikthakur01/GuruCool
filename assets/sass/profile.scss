@@ -1,0 +1,24 @@
+#profile{
+    position: relative;
+    background-color: transparent;
+    z-index: -1;
+    top:220px;
+    left:34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+        font-size: 2rem;
+        color: #4a95c8;
+        
+        div{
+            margin: 10px 5px ;
+            
+            span{
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}

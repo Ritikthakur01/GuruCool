@@ -1,0 +1,23 @@
+#profile {
+  position: relative;
+  background-color: transparent;
+  z-index: -1;
+  top: 220px;
+  left: 34rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#profile h2 {
+  font-size: 2rem;
+  color: #4a95c8;
+}
+#profile h2 div {
+  margin: 10px 5px;
+}
+#profile h2 div span {
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=profile.css.map */

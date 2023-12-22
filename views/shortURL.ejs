@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/css/shortURL.css" />
+
+<div class="main_shortURLContainer">
+  <div class="container">
+    <div class="form_area">
+      <h1>Generate Short URL</h1>
+
+      <form action="/shortURL" method="post">
+        <input type="text" name="fullURL" placeholder="Enter long URL" />
+        <button style="background-color: rgb(139, 194, 229);">Generate</button>
+      </form>
+    </div>
+  </div>
+
+  <% if (shortURL.length>0) {%>
+  <div class="container">
+    <div class="form_area">
+      <h1>Redirect to Original URL</h1>
+
+      <form action="/shortURL/<%= shortURL %>" method="get">
+        <input
+          type="text"
+          name="shortURL"
+          value="<%= shortURL %>"
+          placeholder="Enter long URL"
+          readonly
+        />
+        <button style="background-color: rgb(229, 139, 139);">Redirect</button>
+      </form>
+    </div>
+  </div>
+  <%}%>
+</div>

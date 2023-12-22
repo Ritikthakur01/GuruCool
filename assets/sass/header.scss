@@ -1,0 +1,48 @@
+.nav{
+    position: absolute;
+    margin-top: 0px;
+    width:100vw;
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .app-name{
+       width:120px;
+       height:40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+       a{
+            font-size: larger;
+            text-decoration: none;
+            color: whitesmoke;
+            padding-left: 15px;
+       }
+    }
+
+    .nav-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+        height: 40px;
+        list-style-type: none;
+
+        li{
+
+            a{
+                text-decoration: none;
+                color: rgb(243, 243, 243);
+                &:hover{
+                    transform: scale(1.3rem);
+                    color:rgb(72, 134, 202)
+                }
+            }
+            
+        }
+    }
+}
