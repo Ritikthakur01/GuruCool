@@ -7,8 +7,7 @@ async function main(){
         useNewUrlParser: true,
         useUnifiedTopology: true,
      };
-     const encodedPassword = encodeURIComponent("Ritik@2000")
-    await mongoose.connect(`mongodb+srv://bhadauriaritik:${encodedPassword}@cluster0.bf8akzu.mongodb.net/?retryWrites=true&w=majority`,connectionOptions)
+    await mongoose.connect(`${env.db}`,connectionOptions)
     return;
 }
 

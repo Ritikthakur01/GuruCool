@@ -67,3 +67,8 @@
     top: 30%;
     cursor: pointer;
   }
+  label{
+    color: white;
+    text-shadow: 2px 2px #ff9a9e;
+    font-weight: 100;
+  }
