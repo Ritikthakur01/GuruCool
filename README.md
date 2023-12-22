@@ -1,4 +1,7 @@
 # Complete_Authentication
+
+## (https://gurucool-4l65.onrender.com)
+
 This project has complete Authentication system.
 <br/>
 <br/>
@@ -18,6 +21,7 @@ This project has complete Authentication system.
 7. Facebook login/signup (Social authentication)
 8. Display all needed notifications in a beautified manner
 9. Version Flexibility (if a user use older version and new version is rolled out user will not forced to upgrade on new version)
+10. Interactive UI (like a game)
 
 ## How to setup the project on local system 🚱
 lets understand steps of using this project in local system -
@@ -26,7 +30,6 @@ lets understand steps of using this project in local system -
 2. Do npm init to set project config accordingly.
 3. Put values of all variables that are shown in enviroment.js,  You have to make your own config.env file and store all related varibles with its values init. or you can store values of varibles in enviroment varibles.(set value of production object if you run this in production mode).
 4. To run project in developer mode type "npm run dev (through nodemon) or npm start".
-5. To run project in production mode type "npm run prod_start". (make sure you put all value of production varibles that are in config.env file)
 
 ## Additional 🦖
 - Animated UI
