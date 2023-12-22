@@ -25,7 +25,8 @@ This project has complete Authentication system.
 9. Version Flexibility (if a user use older version and new version is rolled out user will not forced to upgrade on new version)
 10. Interactive UI (like a game)
 <br/>
-## Shortern URL
+### Shortern URL
+<br/>
 Allow users to shorten long URLs and generate a unique short URL that redirects to the original long URL. This feature aims to provide a convenient and shareable alternative to lengthy URLs.
 
 * Usage:
