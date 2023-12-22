@@ -12,7 +12,6 @@ const expresslayout= require("express-ejs-layouts"); //requiring express-ejs-lay
 const db= require("./config/mongoose")  //importing database connection
 
 
-const MongoStore=require("connect-mongo") //this is used to store user cookies in database
 const passport=require("passport"); // passport is used for authentication
 const passport_Google=require("./config/passport_google") //passport-google is used for social authentication
 const passport_local=require("./config/passport_local")
@@ -36,6 +35,7 @@ app.set("views","./views");
 app.set("layout extractStyles",true)
 app.set("layout extractScripts",true)
 
+const encodedPassword = encodeURIComponent("Ritik@2000")
 // setting session
 app.use(session({
     name:"Node_Auth",
@@ -45,17 +45,7 @@ app.use(session({
     cookie:{
         maxAge:1000*60*60*24*30,
         httpOnly:true
-    },
-    store:MongoStore.create({ // storing session cookie in database
-        mongooseConnection: db, 
-        touchAfter: 24 * 60 * 60,
-        clearInterval: 1000 * 60 * 60 * 24,
-        mongoUrl:`mongodb://127.0.0.1:27017/${env.db}`
-    }, 
-        function(err){
-            console.log(err||"MongoStore connect successfully")
-        }
-    )
+    }
 }))
 
 app.use(passport.initialize()); 
