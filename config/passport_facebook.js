@@ -38,7 +38,7 @@ passport.use(new FacebookStrategy(
         }
         catch(err){
             console.log(`Error in goggle oauth strategy ${err}`)
-            return done(err,null);
+            return done(err,null); 
         }
     }
 ))
