@@ -15,7 +15,7 @@ passport.use(new FacebookStrategy(
     },
     async function(accessToken,refreshToken,profile,done){
         try{
-            const user =await User.findOne({email:profile.emails[0].value});
+            const user =await User.findOne({email:profile.emails[0].value}).maxTimeMS(20000);
             // if user exist user will sign-in, if not then user will create in database and then sign-in
             if(user){
                 return done(null,user);
