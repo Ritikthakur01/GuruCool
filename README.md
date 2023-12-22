@@ -31,7 +31,6 @@ This project has complete Authentication system.
 
 Allow users to shorten long URLs and generate a unique short URL that redirects to the original long URL. This feature aims to provide a convenient and shareable alternative to lengthy URLs.
 
-
 * Usage:
   
 1. Shorten URL:
