@@ -24,12 +24,16 @@ This project has complete Authentication system.
 8. Display all needed notifications in a beautified manner
 9. Version Flexibility (if a user use older version and new version is rolled out user will not forced to upgrade on new version)
 10. Interactive UI (like a game)
-<br/>
+
+    
 ### Shortern URL
-<br/>
+
+
 Allow users to shorten long URLs and generate a unique short URL that redirects to the original long URL. This feature aims to provide a convenient and shareable alternative to lengthy URLs.
 
+
 * Usage:
+  
 1. Shorten URL:
       Users can submit a long URL to the service.
       The system generates a short and unique identifier for the provided URL.
