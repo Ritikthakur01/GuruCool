@@ -1,7 +1,6 @@
 # Complete_Authentication
-
-## (https://gurucool-4l65.onrender.com)
-
+Deploy link - ## https://gurucool-4l65.onrender.com
+<br/>
 This project has complete Authentication system.
 <br/>
 <br/>
@@ -9,6 +8,9 @@ This project has complete Authentication system.
 
 
 ## Features of this projects are 🚱
+
+### Authentication
+
 1. Sign up with email (Validation- user have to verify email, a verification mail will sent to provided email)
 
 2. Sign in (redirect to a blank home page with a sign out and profile button after sign in)
@@ -22,6 +24,18 @@ This project has complete Authentication system.
 8. Display all needed notifications in a beautified manner
 9. Version Flexibility (if a user use older version and new version is rolled out user will not forced to upgrade on new version)
 10. Interactive UI (like a game)
+<br/>
+### Shortern URL
+Allow users to shorten long URLs and generate a unique short URL that redirects to the original long URL. This feature aims to provide a convenient and shareable alternative to lengthy URLs.
+
+* Usage:
+1. Shorten URL:
+      Users can submit a long URL to the service.
+      The system generates a short and unique identifier for the provided URL.
+   
+2. Access Shortened URL:
+      Users can access the shortened URL in the format https://your-shortener-domain/short-identifier.
+      Entering the short URL in a browser redirects the user to the original long URL.
 
 ## How to setup the project on local system 🚱
 lets understand steps of using this project in local system -
